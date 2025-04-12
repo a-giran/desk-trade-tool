@@ -23,7 +23,7 @@ summary = {
     "Net Long Exposure": df_trades[df_trades["Direction"] == "Buy"]["Exposure"].sum(),
     "Net Short Exposure": df_trades[df_trades["Direction"] == "Sell"]["Exposure"].sum()
 }
-
+#blah
 df_summary = pd.DataFrame(list(summary.items()), columns=["Metric", "Value"])
 df_trades.to_csv("trade_blotter.csv", index=False)
 df_summary.to_csv("summary.csv", index=False)
