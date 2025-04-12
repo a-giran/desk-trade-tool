@@ -11,3 +11,6 @@ This is a simple Python-based desk tool to track trades, calculate PnL, and moni
 
 ```bash
 python trade_tool.py
+
+
+## Output
